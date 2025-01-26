@@ -1,1 +1,2 @@
-This folder contains my Rock Paper Scissors project.
+## Project
+- **Rock Paper Scissors:** A fun game created with HTML, CSS, and JavaScript.
