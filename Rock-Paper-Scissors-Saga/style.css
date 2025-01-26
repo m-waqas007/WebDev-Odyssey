@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: burlywood;
+}
+
+h1 {
+    background-color: #081b31;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+/* seprate choice divs */
+.choice {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    display: flex;
+    /* to center the image */
+    justify-content: center;
+    /* to center the image */
+    align-items: center;
+    /* to center the image */
+}
+
+.choice:hover {
+    /* opacity: 90%; */
+    cursor: pointer;
+    background-color: #081b31;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    /* to fit the image in the div */
+    border-radius: 50%;
+    /* to make the image round */
+}
+
+/* outer/main div */
+.choices {
+    display: flex;
+    /* to make the divs in a row */
+    justify-content: center;
+    /* to center the divs */
+    margin-top: 5rem;
+    /* to give space between h1 and choices */
+    align-items: center;
+    /* to center the divs vertically */
+    gap: 3rem;
+    /* to give space between the divs */
+}
+
+#rockHeading {
+    position: absolute;
+    top: 8rem;
+    color: #081b31;
+}
+
+#paperHeading {
+    position: absolute;
+    top: 8rem;
+    color: #081b31;
+}
+
+#scissorHeading {
+    position: absolute;
+    top: 8rem;
+    color: #081b31;
+}
+
+.score-board {
+    display: flex;
+    /* to make the divs in a row */
+    justify-content: center;
+    /* to center the div */
+    align-items: center;
+    /* to center the divs vertically */
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 8rem;
+
+}
+
+#user-score,
+#comp-score {
+    font-size: 4rem;
+}
+
+.msg-container {
+    margin-top: 5rem;
+}
+
+#msg {
+    background-color: #081b31;
+    color: white;
+    font-size: 2rem;
+    display: inline-block;
+    /* to make the div inline */
+    padding: 1rem;
+    border-radius: 1rem;
+}
