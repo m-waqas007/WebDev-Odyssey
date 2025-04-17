@@ -281,7 +281,7 @@ body {
     border: none;
     border-radius: 0.625rem;
     margin-top: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     padding: 1.8rem 2.5rem;
 }
 
@@ -310,5 +310,113 @@ body {
     .company-title {
         font-size: 2.3rem;
         font-weight: bold;
+    }
+}
+
+/* Features Section */
+.feature-container {
+    background-color: var(--light-gray);
+    padding: 2.5rem 0;
+    text-align: center;
+}
+
+.feature-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.main-title {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.main-description {
+    color: var(--gray);
+    font-size: 1rem;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    margin-top: 1.3rem;
+}
+
+.feature-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: skyblue;
+    border-radius: 1rem;
+    gap: 1rem;
+}
+
+.feature-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.icon-container {
+    background-color: var(--background-color);
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-svg {
+    width: 1.5rem;
+    width: 1.5rem;
+}
+
+.feature-title {
+    color: var(--background-color);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.feature-description {
+    color: var(--background-color);
+}
+
+.feature-card:nth-child(1) {
+    background-color: #4a90e2;
+}
+
+.feature-card:nth-child(2) {
+    background-color: #ff6289;
+}
+
+.feature-card:nth-child(3) {
+    background-color: #fcbf58;
+}
+
+.feature-card:nth-child(4) {
+    background-color: #44bfc7;
+}
+
+.feature-card:nth-child(5) {
+    background-color: #77b05d;
+}
+
+.feature-card:nth-child(6) {
+    background-color: #7d78b1;
+}
+
+@media screen and (max-width: 768px) {
+    .feature-grid {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
